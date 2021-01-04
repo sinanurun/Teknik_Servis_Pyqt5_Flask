@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tpanaekran</class>
+ <widget class="QMainWindow" name="Tpanaekran">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>902</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ana Pencere</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>821</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Talep Id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Talep Adi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Açılış Tarihi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Talep Önemi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Talep Tanımı</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Talep Notu</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Talep Güncelle</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Onaya Gönder</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>601</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Talep İşlemi Seçiniz</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>902</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTalep_i_lemleri">
+    <property name="title">
+     <string>Talep işlemleri</string>
+    </property>
+    <addaction name="aciktalepler"/>
+    <addaction name="onaybekleyentalepler"/>
+    <addaction name="kapanantalepler"/>
+   </widget>
+   <addaction name="menuTalep_i_lemleri"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionPersonel_Ekle">
+   <property name="text">
+    <string>Personel Ekle</string>
+   </property>
+  </action>
+  <action name="actionPersnel_G_ncelle_Sil">
+   <property name="text">
+    <string>Persnel Güncelle - Sil</string>
+   </property>
+  </action>
+  <action name="aciktalepler">
+   <property name="text">
+    <string>Açık Talepler</string>
+   </property>
+  </action>
+  <action name="onaybekleyentalepler">
+   <property name="text">
+    <string>Onay Bekleyen Talepler</string>
+   </property>
+  </action>
+  <action name="kapanantalepler">
+   <property name="text">
+    <string>Kapanan Talepler</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

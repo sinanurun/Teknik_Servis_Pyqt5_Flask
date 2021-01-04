@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PersonelEkleme</class>
+ <widget class="QWidget" name="PersonelEkleme">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>607</width>
+    <height>364</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Personel Ekleme Formu</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>361</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="talepAdiLabel">
+      <property name="text">
+       <string>Personel Adi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="p_adi"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="talepTanMLabel">
+      <property name="text">
+       <string>Personel Birim</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QComboBox" name="p_birim"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="talepNemiLabel">
+      <property name="text">
+       <string>Personel E-Posta</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="p_eposta"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="yetkiliPersonelLabel">
+      <property name="text">
+       <string>Personel Şifre</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="p_sifre"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="talepTRLabel">
+      <property name="text">
+       <string>Personel Mevki</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="p_mevki"/>
+    </item>
+    <item row="6" column="1">
+     <widget class="QPushButton" name="onay">
+      <property name="text">
+       <string>Onayla</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>p_adi</tabstop>
+  <tabstop>p_eposta</tabstop>
+  <tabstop>p_sifre</tabstop>
+  <tabstop>p_birim</tabstop>
+  <tabstop>p_mevki</tabstop>
+  <tabstop>onay</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

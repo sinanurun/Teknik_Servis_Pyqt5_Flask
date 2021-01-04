@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AnaPencere</class>
+ <widget class="QMainWindow" name="AnaPencere">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ana Pencere</string>
+  </property>
+  <widget class="QWidget" name="ana_icerik">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>751</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Talep Id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Talep Adi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Açılış Tarihi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Talep Durumu</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Yetkili Personel</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Talep Önemi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Kapat</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>601</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Yapmak İstediğiniz işlemi Menüden Seçiniz</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTalep_i_lemleri">
+    <property name="title">
+     <string>Talep işlemleri</string>
+    </property>
+    <addaction name="actionTalep_A"/>
+    <addaction name="actionDevam_Eden_Talepler"/>
+    <addaction name="actionKapanan_Talepler"/>
+   </widget>
+   <widget class="QMenu" name="menuPersonel_lemleri">
+    <property name="title">
+     <string>Personel İşlemleri</string>
+    </property>
+    <addaction name="actionPersonel_Ekle"/>
+    <addaction name="actionPersnel_G_ncelle_Sil"/>
+   </widget>
+   <widget class="QMenu" name="menuBilgi_lemleri">
+    <property name="title">
+     <string>Bilgi İşlemleri</string>
+    </property>
+    <addaction name="actionBirim_lemleri"/>
+    <addaction name="actionMevki_lemleri"/>
+    <addaction name="action_nem_lemleri"/>
+    <addaction name="actionTalep_Durum_lemleri"/>
+   </widget>
+   <widget class="QMenu" name="menuRaporlama">
+    <property name="title">
+     <string>Raporlama</string>
+    </property>
+    <addaction name="actionRaporlama_lemi"/>
+   </widget>
+   <addaction name="menuTalep_i_lemleri"/>
+   <addaction name="menuPersonel_lemleri"/>
+   <addaction name="menuBilgi_lemleri"/>
+   <addaction name="menuRaporlama"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionPersonel_Ekle">
+   <property name="text">
+    <string>Personel Ekle</string>
+   </property>
+  </action>
+  <action name="actionPersnel_G_ncelle_Sil">
+   <property name="text">
+    <string>Personel Güncelle - Sil</string>
+   </property>
+  </action>
+  <action name="actionTalep_A">
+   <property name="text">
+    <string>Talep Aç</string>
+   </property>
+  </action>
+  <action name="actionDevam_Eden_Talepler">
+   <property name="text">
+    <string>Devam Eden Talepler</string>
+   </property>
+  </action>
+  <action name="actionKapanan_Talepler">
+   <property name="text">
+    <string>Kapanan Talepler</string>
+   </property>
+  </action>
+  <action name="actionBirim_lemleri">
+   <property name="text">
+    <string>Birim İşlemleri</string>
+   </property>
+  </action>
+  <action name="actionMevki_lemleri">
+   <property name="text">
+    <string>Mevki İşlemleri</string>
+   </property>
+  </action>
+  <action name="action_nem_lemleri">
+   <property name="text">
+    <string>Önem İşlemleri</string>
+   </property>
+  </action>
+  <action name="actionTalep_Durum_lemleri">
+   <property name="text">
+    <string>Talep Durum İşlemleri</string>
+   </property>
+  </action>
+  <action name="actionRaporlama_lemi">
+   <property name="text">
+    <string>Raporlama İşlemi</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

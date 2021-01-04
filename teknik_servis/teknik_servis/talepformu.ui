@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TalepEkleme</class>
+ <widget class="QWidget" name="TalepEkleme">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>607</width>
+    <height>364</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Talep Formu</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>361</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="talepAdiLabel">
+      <property name="text">
+       <string>Talep Adi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="talepadi"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="talepTRLabel">
+      <property name="text">
+       <string>Talep Birimi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="yetkiliPersonelLabel">
+      <property name="text">
+       <string>Yetkili Personel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="talepNemiLabel">
+      <property name="text">
+       <string>Talep Önemi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="talepTanMLabel">
+      <property name="text">
+       <string>Talep Tanımı</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="taleptanimi"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="talepNotuLabel">
+      <property name="text">
+       <string>Talep Notu</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="talenotu"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QComboBox" name="taleponemi">
+      <item>
+       <property name="text">
+        <string>Önemli</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Normal</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Önemsiz</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="talepbirimi"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="yetkilipersonel"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="onay">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>230</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Onayla</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>talepadi</tabstop>
+  <tabstop>talepbirimi</tabstop>
+  <tabstop>yetkilipersonel</tabstop>
+  <tabstop>taleponemi</tabstop>
+  <tabstop>taleptanimi</tabstop>
+  <tabstop>talenotu</tabstop>
+  <tabstop>onay</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Onaybekleyen</class>
+ <widget class="QWidget" name="Onaybekleyen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>905</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Onay Bekleyen Talepler</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>821</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Talep Id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Adi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Açılış Tarihi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Önemi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Tanımı</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Notu</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Güncelle</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Açığa Al</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>70</y>
+     <width>601</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Onay Bekleyen Talepler</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

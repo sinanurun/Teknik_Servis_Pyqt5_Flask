@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Kapanantalepler</class>
+ <widget class="QWidget" name="Kapanantalepler">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>905</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kapanan Talepler</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>120</y>
+     <width>741</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Talep Id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Adi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Açılış Tarihi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kapanaış Tarihi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Önemi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Tanımı</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Notu</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>30</y>
+     <width>601</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Kapanan Talepler</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

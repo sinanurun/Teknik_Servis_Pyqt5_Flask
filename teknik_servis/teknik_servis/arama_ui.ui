@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>766</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>50</y>
+     <width>261</width>
+     <height>88</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="birimAdNGirinizLabel">
+      <property name="text">
+       <string>Talep İd Giriniz</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="talep_id"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Talep Ara</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="talepBirimiLabel_2">
+      <property name="text">
+       <string>Talep Birimi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="talepBirimi"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="raporlama">
+      <property name="text">
+       <string>Raporla</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>751</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Talep Id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Adi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Açılış Tarihi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Durumu</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Yetkili Personel</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Talep Önemi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Kapanış Tarihi</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

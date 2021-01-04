@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PersonelGuncelleSil</class>
+ <widget class="QWidget" name="PersonelGuncelleSil">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>364</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Personel Güncelleme Silme Ekranı</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>751</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Personel Adı</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Personel E Posta</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Personel Şifre</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Personel Birim</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Personel Mevki</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Güncelle</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Sil</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
